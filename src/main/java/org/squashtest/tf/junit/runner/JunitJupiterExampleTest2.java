@@ -35,7 +35,7 @@ public class JunitJupiterExampleTest2 {
     @Test
     @DisplayName("Jupiter Test Display Name")
     public void jupiterTest() {
-        assertEquals(2, 1);
+        assertEquals(2, 1+1);
     }
 
 }
